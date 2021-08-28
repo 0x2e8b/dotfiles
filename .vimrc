@@ -1,7 +1,7 @@
 set relativenumber
+set number
 set linebreak
 set showbreak=+++
-set textwidth=100
 set showmatch
 set visualbell
 
@@ -16,9 +16,7 @@ set smartindent
 set smarttab
 set softtabstop=4
 
-
 set ruler
-
 set undolevels=1000
 set backspace=indent,eol,start
 syntax on
