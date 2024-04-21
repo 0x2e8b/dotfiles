@@ -1,22 +1,14 @@
-set relativenumber
-set number
-set linebreak
-set showbreak=+++
+syntax on
 set showmatch
 set visualbell
-
-set hlsearch
-set smartcase
-set ignorecase
-set incsearch
-
-set autoindent
-set shiftwidth=4
-set smartindent
-set smarttab
-set softtabstop=4
-
-set ruler
-set undolevels=1000
 set backspace=indent,eol,start
-syntax on
+set nocompatible
+filetype on
+filetype plugin on
+filetype indent on
+set cursorline
+set cursorcolumn
+set ignorecase
+set smartcase
+set hlsearch
+colorscheme slate
